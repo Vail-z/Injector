@@ -49,5 +49,5 @@ jobs:
       with:
         name: Injector-${{matrix.platform}}
         path: |
-          ${{matrix.platform}}/${{env.BUILD_CONFIGURATION}}/Injector.exe
-          ${{matrix.platform}}/${{env.BUILD_CONFIGURATION}}/Injector.pdb
+          bin/${{matrix.platform}}/Injector.exe
+          bin/${{matrix.platform}}/Injector.pdb
